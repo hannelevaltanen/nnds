@@ -85,6 +85,8 @@
 
   
   /* UI Colors */
+
+  /* Button */
   --color-content: var(--color-mountain);
   --color-primary: var(--color-cyan);
 
@@ -124,10 +126,26 @@
   --color-link-hover-text: var(--color-ocean);
   --color-link-active: var(--color-ocean);
 
+  /* Alert */
+  --color-alert-info-text: var(--color-text);
+  --color-alert-info-bg: var(--color-cyan-5);
+  --color-alert-info-hl: var(--color-cyan-60);
+
+  --color-alert-danger-text: var(--color-text);
+  --color-alert-danger-bg: var(--color-field-5);
+  --color-alert-danger-hl: var(--color-field-60);
+
+  --color-alert-success-text: var(--color-text);
+  --color-alert-success-bg: var(--color-grass-5);
+  --color-alert-success-hl: var(--color-grass-60);
+
+  /* Border */
   --color-border: var(--color-mountain-10);
 
+  /* Opacity */
+  --color-opacity-dark: rgba(0, 0, 0, 0.6);
+
+  /* Misc */
   --color-default: var(--color-mountain-10);
   --color-default-hover: var(--color-mountain-20);
-
-  --color-opacity-dark: rgba(0, 0, 0, 0.6);
 }
