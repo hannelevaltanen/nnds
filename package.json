@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "license": "MIT",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "yarn build:components && yarn build:react",
+    "build:components": "lerna run --scope nnds-components build",
+    "build:react": "lerna run --scope nnds-react build",
+    "start": "lerna run --scope nnds-components start",
+    "storybook": "lerna run --scope nnds-components story",
+    "publish": "lerna publish from-package --yes",
+    "update-versions": "lerna version --exact --no-git-tag-version --no-push --amend --yes"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

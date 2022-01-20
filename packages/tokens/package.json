@@ -1,0 +1,18 @@
+{
+  "name": "nnds-tokens",
+  "version": "0.0.0",
+  "description": "Design Tokens for the NN Design System",
+  "main": "lib/all.css",
+  "license": "MIT",
+  "homepage": "https://github.com/hannelevaltanen/nnds#readme",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design",
+    "tokens"
+  ]
+}

@@ -1,0 +1,1 @@
+import{p as t,b}from"./p-e6fb4bb5.js";(()=>{const b=import.meta.url,n={};return""!==b&&(n.resourcesUrl=new URL(".",b).href),t(n)})().then((t=>b([["p-a7644034",[[1,"nnds-button",{type:[1],size:[1],variant:[1],block:[4],disabled:[4]}]]]],t)));
