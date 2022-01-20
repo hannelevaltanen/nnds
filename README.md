@@ -4,15 +4,15 @@
 
 NN Design System is a collection of reusable components and tools that are divided into three separate packages:
 
-### nnds-components
+### 📚 nnds-components
 
 Core Web Components created with [**Stencil**](https://stenciljs.com/).
 
-### nnds-react
+### ⚛️ nnds-react
 
 Auto Generated React Wrapper for Web Components.
 
-### nnds-tokens
+### 🎨 nnds-tokens
 
 All design tokens in a one package.
 
