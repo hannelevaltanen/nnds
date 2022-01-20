@@ -1,6 +1,6 @@
 {
   "name": "nnds-tokens",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Design Tokens for the NN Design System",
   "main": "lib/all.css",
   "license": "MIT",
