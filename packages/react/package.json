@@ -1,7 +1,7 @@
 {
   "name": "nnds-react",
   "sideEffects": false,
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.3-alpha.0",
   "description": "React specific wrapper for web components",
   "homepage": "https://github.com/hannelevaltanen/nnds#readme",
   "keywords": [
