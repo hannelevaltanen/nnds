@@ -35,7 +35,7 @@
   "dependencies": {
     "@stencil/core": "^2.12.1",
     "@stencil/react-output-target": "^0.2.1",
-    "nnds-tokens": "^0.0.1"
+    "nnds-tokens": "^0.0.3-alpha.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

@@ -11189,11 +11189,6 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-nnds-tokens@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/nnds-tokens/-/nnds-tokens-0.0.1.tgz#11a5f4eb86d0370044ce112b29c172f0cb268580"
-  integrity sha512-A195rqEWdk5CO2GiFxv8pdHMf3mmBbvbiEbChdXtUPO8HssRfcKfs9Ounc1PoyO2tgGk3U/G+QlUjymF3u7YDg==
-
 no-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
