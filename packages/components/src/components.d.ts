@@ -6,6 +6,16 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface NndsAlert {
+        /**
+          * How large should the button be?
+         */
+        "size"?: "small" | "medium" | "large";
+        /**
+          * What type of button is this?
+         */
+        "variant"?: "info" | "danger" | "success";
+    }
     interface NndsButton {
         /**
           * Is the button full width?
@@ -35,6 +45,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLNndsAlertElement extends Components.NndsAlert, HTMLStencilElement {
+    }
+    var HTMLNndsAlertElement: {
+        prototype: HTMLNndsAlertElement;
+        new (): HTMLNndsAlertElement;
+    };
     interface HTMLNndsButtonElement extends Components.NndsButton, HTMLStencilElement {
     }
     var HTMLNndsButtonElement: {
@@ -42,10 +58,21 @@ declare global {
         new (): HTMLNndsButtonElement;
     };
     interface HTMLElementTagNameMap {
+        "nnds-alert": HTMLNndsAlertElement;
         "nnds-button": HTMLNndsButtonElement;
     }
 }
 declare namespace LocalJSX {
+    interface NndsAlert {
+        /**
+          * How large should the button be?
+         */
+        "size"?: "small" | "medium" | "large";
+        /**
+          * What type of button is this?
+         */
+        "variant"?: "info" | "danger" | "success";
+    }
     interface NndsButton {
         /**
           * Is the button full width?
@@ -74,6 +101,7 @@ declare namespace LocalJSX {
     | "link";
     }
     interface IntrinsicElements {
+        "nnds-alert": NndsAlert;
         "nnds-button": NndsButton;
     }
 }
@@ -81,6 +109,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "nnds-alert": LocalJSX.NndsAlert & JSXBase.HTMLAttributes<HTMLNndsAlertElement>;
             "nnds-button": LocalJSX.NndsButton & JSXBase.HTMLAttributes<HTMLNndsButtonElement>;
         }
     }

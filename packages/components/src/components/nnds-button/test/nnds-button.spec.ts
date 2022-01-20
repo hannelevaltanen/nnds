@@ -1,5 +1,5 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { NndsButton } from '../Nnds-button';
+import { NndsButton } from '../nnds-button';
 
 describe('nnds-button', () => {
   it('renders', async () => {
@@ -9,7 +9,11 @@ describe('nnds-button', () => {
     });
     expect(page.root).toEqualHtml(`
       <nnds-button>
-        <button class="nnds-button nnds-button--medium nnds-button--primary" type="button"></button>
+        <mock:shadow-root>
+          <button class="nnds-button nnds-button--medium nnds-button--primary" type="button">
+            <slot></slot>
+          </button>
+        </mock:shadow-root>
       </nnds-button>
     `);
   });

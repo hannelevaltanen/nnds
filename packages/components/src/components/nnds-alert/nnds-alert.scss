@@ -1,0 +1,24 @@
+:host {
+  display: block;
+}
+
+/* Core styles */
+
+.nnds-alert {
+  padding: var(--spacing-m) var(--spacing-l);
+  margin-bottom: var(--spacing-m);
+  border-radius: var(--radius-s);
+}
+
+
+/* Alert variants */
+
+$variants: info, danger, success;
+
+@each $variant in $variants {
+  .nnds-alert--#{$variant} {
+    color: var(--color-alert-#{$variant}-text);
+    background-color: var(--color-alert-#{$variant}-bg);
+    border-left: var(--spacing-xxs) solid var(--color-alert-#{$variant}-hl);
+  }
+}
