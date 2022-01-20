@@ -1,10 +1,4 @@
-@import url(./tokens/_colors.scss);
-@import url(./tokens/_radius.scss);
-@import url(./tokens/_shadow.scss);
-@import url(./tokens/_sizing.scss);
-@import url(./tokens/_spacing.scss);
-@import url(./tokens/_time.scss);
-@import url(./tokens/_typography.scss);
+@import "~nnds-tokens/lib/all.css";
 
 *,
 *::after,
