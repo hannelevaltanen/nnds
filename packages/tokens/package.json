@@ -1,6 +1,6 @@
 {
   "name": "nnds-tokens",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Design Tokens for the NN Design System",
   "main": "lib/all.css",
   "license": "MIT",
@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "design",
+    "design system",
+    "design tokens",
     "tokens"
   ]
 }

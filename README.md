@@ -45,6 +45,6 @@ Starts Storybook environment from the components package.
 
 Publishes all packages.
 
-### `yarn update`
+### `yarn update-versions`
 
 Updates all versions.
